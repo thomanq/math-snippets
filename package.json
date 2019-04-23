@@ -1,0 +1,36 @@
+{
+    "name": "math-snippets",
+    "displayName": "Math Snippets",
+    "version": "0.1.0",
+    "publisher": "thomanq",
+    "description": "Math snippets for LaTeX and Markdown",
+    "homepage":"https://github.com/thomanq/math-snippets/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thomanq/math-snippets.git"
+      },
+    "license": "MIT",
+    "icon": "images/icon.png",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "markdown",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "latex",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "tex",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
