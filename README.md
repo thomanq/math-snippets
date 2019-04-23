@@ -26,8 +26,8 @@ In addition to the standard LaTeX names, the following shortcuts aliases and sho
 |`dd`|`$$ ... $$`|Creates display math formula with dollar delimiter|
 |`II`|`\(...\)`| Creates inline math formula with bracket delimiter |
 |`DD`|`\[\]`| Creates inline display math formula with bracket delimiter|
-|`abs`|`\left| ... \right|`| Absolute value|
-|`norm`|`\left\| ... \right\|`| Vector norm |
+|`abs`|`\leftǀ... \rightǀ`| Absolute value|
+|`norm`|`\left\ǀ ... \right\ǀ`| Vector norm |
 |`lrparentheses`|`\left( ... \right)`| Matching parentheses |
 |`lrbrackets`|`\left[ ... \right]`| Matching brackets |
 |`bb`|`\\mathbb{...}`| Math BB font |
