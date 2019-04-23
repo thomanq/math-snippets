@@ -30,8 +30,8 @@ In addition to the standard LaTeX names, the following shortcuts aliases and sho
 |`norm`|`\left\| ... \right\|`| Vector norm |
 |`lrparentheses`|`\left( ... \right)`| Matching parentheses |
 |`lrbrackets`|`\left[ ... \right]`| Matching brackets |
-|`bb`|`\\mathbb{...}]`| Math BB font |
-|`bf`|`\mathbf{...}]`| Math BF font|
+|`bb`|`\\mathbb{...}`| Math BB font |
+|`bf`|`\mathbf{...}`| Math BF font|
 
 The full list of supported snippets can be found [here](https://github.com/thomanq/math-snippets/blob/master/snippets/snippets.json).
 
