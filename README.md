@@ -36,8 +36,7 @@ The full list of supported snippets can be found [here](https://github.com/thoma
 
 # How to write math with Markdown
 
-There are several VS Code extensions available from the Marketplace, for example [Markdown+Math
-](https://marketplace.visualstudio.com/items?itemName=goessner.mdmath). It is thus possible to use the built-in Markdown preview pane within VS Code.
+There are several VS Code extensions available from the Marketplace, for example [Markdown+Math](https://marketplace.visualstudio.com/items?itemName=goessner.mdmath). It is thus possible to use the built-in Markdown preview pane within VS Code.
 
 Another way is to use [KaTeX](https://katex.org/) directly by placing the [starter template code](https://github.com/KaTeX/KaTeX#starter-template) on top of your Markdown file.
 

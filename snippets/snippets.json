@@ -206,7 +206,12 @@
 	"LaTeX - cases (alias)": {
 		"scope": "",
 		"prefix": "cases",
-		"body": ["\\begin{cases}","$1 &\\text{$2}\\\\\\","$3 &\\text{$4}\\\\\\","\\end{cases} $0"]
+		"body": ["\\begin{cases}","\t$1 &\\text{$2}\\\\\\\\","\t$3 &\\text{$4}\\\\\\\\$5","\\end{cases} $0"]
+	},
+	"LaTeX - align (alias)": {
+		"scope": "",
+		"prefix": "align",
+		"body": ["\\begin{${1|align,align*,aligned|}}","\t$2\\\\\\\\","\t$3\\\\\\\\$4","\\end{$1} $0"]
 	},
 
 
@@ -1736,6 +1741,11 @@
 	
 
 
+	"LaTeX - begin": {
+		"scope": "",
+		"prefix": "begin",
+		"body": ["\\begin{$1}","\t$2","\\end{$1}", "$0"]
+	},
 	"LaTeX - text": {
 		"scope": "",
 		"prefix": "text",
