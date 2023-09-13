@@ -1450,6 +1450,11 @@
 		"prefix": "prod",
 		"body": ["\\prod_{$1}^{$2}$0"]
 	},
+	"LaTeX - dif": {
+		"scope": "",
+		"prefix": "dif",
+		"body": ["\\mathop{}\\!\\mathrm{d}"]
+	},
 	"LaTeX - int": {
 		"scope": "",
 		"prefix": "int",
