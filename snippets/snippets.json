@@ -969,10 +969,15 @@
 		"prefix": "limsup",
 		"body": ["\\limsup "]
 	},
+	"LaTeX - limits": {
+		"scope": "",
+		"prefix": "limits",
+		"body": ["\\limits_{$1}^{$2} $0"]
+	},
 	"LaTeX - lim": {
 		"scope": "",
 		"prefix": "lim",
-		"body": ["\\lim_{${1:x} \\to ${2:\\infty}} $0"]
+		"body": ["\\lim \\limits_{${1:x} \\to ${2:\\infty}} $0"]
 	},
 
 
@@ -1443,7 +1448,7 @@
 	"LaTeX - sum": {
 		"scope": "",
 		"prefix": "sum",
-		"body": ["\\sum_{$1}^{$2}$0"]
+		"body": ["\\sum \\limits_{$1}^{$2}$0"]
 	},
 	"LaTeX - prod": {
 		"scope": "",
